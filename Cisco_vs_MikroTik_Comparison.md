@@ -50,13 +50,3 @@ This document provides a deep, enterprise-level comparison between **Cisco (Cata
 | Compliance Networks (PCI, HIPAA, Fed) | **Cisco** | Certified and supported infrastructure |
 
 ---
-
-## 💬 Recommendation Summary
-
-For Jacob Katutu's environment (AWS-based HA routers, VRFs, and automation):
-- **Core & Cloud** → Cisco (C8000v / Catalyst)
-- **Security Edge** → FortiGate or Cisco FTD
-- **Branch / IoT / Lab** → MikroTik CCR/CHR
-- **Automation / Testing** → MikroTik CHR
-
-This mix provides the **best balance** of cost, scalability, and enterprise reliability.
